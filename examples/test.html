@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>numbers.js test example</title>
+    </head>
+    <body>
+
+	</body>
+</html>
+
+
+<script src="../distro/numbers.min.js"></script>
+<script>
+	var array1 = [0, 1, 2];
+	var array2 = [3, 4, 5];
+
+	console.log(numbers.statistic.mean(array1));
+	console.log(numbers.statistic.median(array1));
+	console.log(numbers.statistic.mode(array1));
+	console.log(numbers.statistic.standardDev(array1));
+	console.log(numbers.statistic.correlation(array1, array2));
+</script>

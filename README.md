@@ -1,4 +1,4 @@
-# numbers.js [![Build Status](https://travis-ci.org/numbers/numbers.js.png)](https://travis-ci.org/numbers/numbers.js)
+# numbers.js Forked from http://github.com/sjkaliski/numbers.js compiled and bundled ready for use
 Numbers - an advanced mathematics toolkit for JavaScript and Node.js.
 
 

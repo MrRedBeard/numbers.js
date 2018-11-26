@@ -1,5 +1,9 @@
 /**
  * numbers.js
+ * https://github.com/MrRedBeard/numbers.js
+ * Refactored and works out of the box
+ *
+ * Forked from
  * http://github.com/sjkaliski/numbers.js
  *
  * Copyright 2012 Stephen Kaliski

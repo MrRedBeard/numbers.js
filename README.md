@@ -1,5 +1,5 @@
 ## numbers.js Forked from http://github.com/sjkaliski/numbers.js compiled and bundled ready for use
-Numbers - an advanced mathematics toolkit for JavaScript and Node.js.
+Numbers - an advanced mathematics toolkit for JavaScript.
 
 
 ## Description
@@ -21,10 +21,7 @@ The primary uses cases are client side operations which the DOM will recognize (
 
 Numbers is pretty straightforward to use.
 
-With node, simply require it:
-```javascript
-var numbers = require('numbers');
-```
+See example
 
 For example, if we wanted to estimate the integral of sin(x) from -2 to 4, we could:
 

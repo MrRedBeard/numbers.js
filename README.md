@@ -1,6 +1,7 @@
 ## numbers.js Forked from http://github.com/sjkaliski/numbers.js compiled and bundled ready for use
-Numbers - an advanced mathematics toolkit for JavaScript and Node.js.
+Numbers - an advanced mathematics toolkit for JavaScript.
 
+Changed just enough of the original library to get it to work in html out of the box ES5 compliant.
 
 ## Description
 
@@ -21,10 +22,7 @@ The primary uses cases are client side operations which the DOM will recognize (
 
 Numbers is pretty straightforward to use.
 
-With node, simply require it:
-```javascript
-var numbers = require('numbers');
-```
+See example
 
 For example, if we wanted to estimate the integral of sin(x) from -2 to 4, we could:
 
@@ -96,73 +94,7 @@ numbers.statistic.correlation(array1, array2);
 ```
 For further documentation, check out [numbers.github.io](http://numbers.github.io/)
 
-## Test
 
-To execute, run:
-
-```
-npm test
-```
-
-Note: Make sure to install the plugins by running `npm install`.
-
-With gulp:
-
-```
-npm run g-test
-```
-
-## Lint
-
-To perform a code quality check using jshint, run 
-
-```
-npm run lint
-```
-
-or, with gulp:
-
-```
-npm run g-lint
-```
-
-Running without gulp will error on warnings.
-
-## Format Code
-
-To format all the tests and lib files using jsbeautifier, run 
-
-```
-npm run format
-```
-
-or, with gulp:
-
-```
-npm run g-format
-```
-
-## Build
-
-To update the public JavaScript, run
-
-```
-npm run build
-```
-
-This will compile the entire library into a single file accessible at src/numbers.js. It will also minify the file into public/numbers.min.js.
-
-With gulp:
-
-```
-npm run g-build
-```
-
-Numbers.js is also available on Bower via
-
-```
-$ bower install numbers.js
-```
 
 ## Core Team
 * Steve Kaliski - [@stevekaliski](http://twitter.com/stevekaliski)

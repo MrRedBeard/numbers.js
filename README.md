@@ -1,4 +1,4 @@
-# numbers.js Forked from http://github.com/sjkaliski/numbers.js compiled and bundled ready for use
+## numbers.js Forked from http://github.com/sjkaliski/numbers.js compiled and bundled ready for use
 Numbers - an advanced mathematics toolkit for JavaScript and Node.js.
 
 
